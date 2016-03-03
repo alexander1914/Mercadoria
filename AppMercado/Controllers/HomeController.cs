@@ -22,7 +22,7 @@ namespace AppMercado.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Pagina de Contato.";
+            ViewBag.Message = "Perfil Social";
 
             return View();
         }

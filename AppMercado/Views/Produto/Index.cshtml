@@ -2,12 +2,13 @@
 
 @{
     ViewBag.Title = "Produto";
+    <img class="img-responsive" center-block style="margin-top:auto;" src="http://elasticbeanstalk-sa-east-1-603429834916.s3.amazonaws.com/sistema/imagens_anuncio/260162/mercado-costa-09.jpg" width="140" height="140">
 }
 
 <h2>Mercadorias</h2>
 
 <p>
-    @Html.ActionLink("Create new", "Create")
+    @Html.ActionLink("Novo Produto", "Create")
 </p>
 <table class="table">
     <tr>
@@ -53,9 +54,9 @@
             @Html.DisplayFor(modelItem => item.TP_Negocio)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details","Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            @Html.ActionLink("Editar", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Detalhes","Details", new { id=item.Id }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.Id })
         </td>
     </tr>
 }
