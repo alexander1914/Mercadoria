@@ -2,15 +2,20 @@
 
 @{
     ViewBag.Title = "Produto";
-    <img class="img-responsive" center-block style="margin-top:auto;" src="http://elasticbeanstalk-sa-east-1-603429834916.s3.amazonaws.com/sistema/imagens_anuncio/260162/mercado-costa-09.jpg" width="140" height="140">
+    <img class="img-circle" center-block style="margin-top:auto;" src="http://elasticbeanstalk-sa-east-1-603429834916.s3.amazonaws.com/sistema/imagens_anuncio/260162/mercado-costa-09.jpg" width="140" height="140">
+    <style type="text/css"></style>
 }
 
 <h2>Mercadorias</h2>
 
 <p>
-    @Html.ActionLink("Novo Produto", "Create")
+    
+    @Html.ActionLink("Novo Produto", "Create",new {@class ="btn btn-sucess"})
+   
 </p>
-<table class="table">
+
+
+<table class="table table-striped">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.TP_Mercadoria)
@@ -54,9 +59,9 @@
             @Html.DisplayFor(modelItem => item.TP_Negocio)
         </td>
         <td>
-            @Html.ActionLink("Editar", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Detalhes","Details", new { id=item.Id }) |
-            @Html.ActionLink("Deletar", "Delete", new { id=item.Id })
+            <p>@Html.ActionLink("Editar", "Edit"     ,new  {id=item.Id }, new { @class ="btn btn-primary" })</p>
+            <p>@Html.ActionLink("Detalhes","Details" , new { id=item.Id }, new { @class ="btn btn-info"   })</p> 
+            <p>@Html.ActionLink("Deletar", "Delete"  , new { id=item.Id },  new { @class ="btn btn-warning"})</p>
         </td>
     </tr>
 }
