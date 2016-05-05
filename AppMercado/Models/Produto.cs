@@ -19,7 +19,7 @@ namespace AppMercado.Models
         public string NM_Mercadoria { get; set; }
 
         [DisplayName("Preço")]
-        public decimal Quantidade   { get; set; }
+        public decimal Quantidade { get; set; }
 
         public string Descrição { get; set; }
 
@@ -27,6 +27,7 @@ namespace AppMercado.Models
         public double Preço { get; set; }
         [DisplayName("Tipo do Negocio")]
         public string TP_Negocio { get; set; }
-
-    }
+        
+       
+    }    
 }
