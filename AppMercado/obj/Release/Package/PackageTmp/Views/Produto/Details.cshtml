@@ -61,6 +61,6 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Voltar", "Index")
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-success btn-sm" })
+    @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-info btn-sm" })
 </p>

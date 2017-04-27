@@ -19,25 +19,26 @@ namespace AppMercado.Controllers
             return View(db.Produtos.ToList());
         }
 
-        // GET: Produto/Details/5
+        // GET: Produto/Detalhes do Produto
         public ActionResult Details(int? id)
         {
             if (id == null)
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+
             Produto produto = db.Produtos.Find(id);
             if (produto == null)
                 return HttpNotFound();
             return View(produto);
         }
 
-        // GET: Produto/Create
+        // GET: Produto/Criando o Produto
         [HttpGet]
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Produto/Create
+        // POST: Produto/Criando o Produto
         [HttpPost]
         public ActionResult Create(Produto produto)
         {
@@ -58,7 +59,7 @@ namespace AppMercado.Controllers
             }
         }
 
-        // GET: Produto/Edit/5
+        // GET: Produto/Atualizando Produto
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -69,7 +70,7 @@ namespace AppMercado.Controllers
             return View(produto);
         }
 
-        // POST: Produto/Edit/5
+        // POST: Produto/Atualizando Produto
         [HttpPost]
         public ActionResult Edit(Produto produto)
         {
@@ -89,18 +90,19 @@ namespace AppMercado.Controllers
             }
         }
 
-        // GET: Produto/Delete/5
+        // GET: Produto/Excluindo o Produto
         public ActionResult Delete(int? id)
         {
             if (id == null)
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+
             Produto produto = db.Produtos.Find(id);
             if (produto == null)
                 return HttpNotFound();
             return View(produto);
         }
 
-        // POST: Produto/Delete/5
+        // POST: Produto/Excluindo o Produto
         [HttpPost]
         public ActionResult Delete(int? id, Produto prod)
         {

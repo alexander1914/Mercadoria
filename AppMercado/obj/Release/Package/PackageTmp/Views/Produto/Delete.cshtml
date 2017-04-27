@@ -4,9 +4,9 @@
     ViewBag.Title = "Excluir Produto";
 }
 
-<h2>Excluir</h2>
+<h2>Excluir Produto</h2>
 
-<h3>Tem certeza que deseja excluir o produto?</h3>
+<h5>Tem certeza que deseja excluir o produto?</h5>
 <div>
     
     <hr />
@@ -65,7 +65,7 @@
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="Excluir" class="btn btn-warning btn-sm" /> |
+            <input type="submit" value="Excluir" class="btn btn-warning btn-sm" />
             @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-danger btn-sm" })
         </div>
     }
