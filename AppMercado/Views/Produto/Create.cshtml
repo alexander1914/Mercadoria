@@ -7,14 +7,14 @@
 <h2>Novo Produto</h2>
 
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
 
 
-    
+
     <div class="form-horizontal">
-        
+
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
@@ -74,7 +74,7 @@
 }
 
 <div>
-    @Html.ActionLink("Voltar", "Index",null, new { @class = "btn btn-danger btn-sm" })
+    @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-danger btn-sm" })
 </div>
 
 @section Scripts {
