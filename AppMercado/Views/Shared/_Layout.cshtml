@@ -6,38 +6,31 @@
     <title>@ViewBag.Title - AppMercado</title>
     <link rel="stylesheet" href="~/Content/bootstrap.min.css" media="screen"/>    
 </head>
-<body>        
-    <nav class="navbar navbar-inverse" style="background-color:#9400D3">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" style="background-color:#9400D3" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("AppMercado", "Index", "Produto", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav" style="background-color:#9400D3">
-                    <li>@Html.ActionLink("Produto", "Index", "Produto")</li>
-                    <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
-                </ul>
-            </div>
-        </div>
-    </nav>       
-    <div class="container body-content">        
-        <div class="oi">
-            <img class="img-circle" alt="Responsive image" center-block style="margin-top:auto;" src="~/Imagens/mercadorias-menu.jpg" width="150" height="150">
-        </div> 
-           @RenderBody()
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="/Produto/Index">
+            <img src="https://cdn3.iconfinder.com/data/icons/industry-flat-3/64/Stock-storage-Merchandise-product-stock-256.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            AppMercado
+            @*@Html.ActionLink("AppMercado", "Index", "Produto", new { area = "" }, new { @class = "d-inline-block align-top" })*@
+        </a>
+        @*<div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav" style="background-color:#9400D3">
+                <li>@Html.ActionLink("Produto", "Index", "Produto")</li>
+                <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
+            </ul>
+        </div>*@
+    </nav>
+    <div class="container">
+         @RenderBody()
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - AppMercado</p>
         </footer>
     </div>
-    <script src="~/Scripts/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
-    
+
     @RenderSection("scripts", required: false)
 </body>
 </html>

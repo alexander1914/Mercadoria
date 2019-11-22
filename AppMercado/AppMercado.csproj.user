@@ -11,6 +11,7 @@
     <WebStackScaffolding_DbContextTypeFullName>AppMercado.Context.ProdutoContext</WebStackScaffolding_DbContextTypeFullName>
     <NameOfLastUsedPublishProfile>appmercado - Web Deploy</NameOfLastUsedPublishProfile>
     <UseIISExpress>true</UseIISExpress>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
