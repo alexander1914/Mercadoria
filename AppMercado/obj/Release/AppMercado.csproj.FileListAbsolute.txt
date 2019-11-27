@@ -1,164 +1,83 @@
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\ApplicationInsights.config
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\roslyn\csc.exe
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\roslyn\vbc.exe
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\roslyn\VBCSCompiler.exe
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\AppMercado.dll.config
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\AppMercado.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\AppMercado.pdb
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Antlr3.Runtime.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\EntityFramework.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\EntityFramework.SqlServer.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AI.Web.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Newtonsoft.Json.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Owin.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.Helpers.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.Mvc.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.Optimization.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.Razor.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.WebPages.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.WebPages.Razor.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\WebGrease.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\EntityFramework.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\EntityFramework.SqlServer.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AI.Web.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.ApplicationInsights.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.Helpers.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.Mvc.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.Optimization.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.Razor.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.WebPages.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\System.Web.WebPages.Razor.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Antlr3.Runtime.pdb
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Newtonsoft.Json.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\obj\Release\AppMercado.csprojResolveAssemblyReference.cache
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\obj\Release\AppMercado.dll
-C:\Users\Alexander\documents\visual studio 2015\Projects\AppMercado\AppMercado\obj\Release\AppMercado.pdb
-C:\C# Projects\AppMercado\AppMercado\bin\ApplicationInsights.config
-C:\C# Projects\AppMercado\AppMercado\bin\roslyn\csc.exe
-C:\C# Projects\AppMercado\AppMercado\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\C# Projects\AppMercado\AppMercado\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\C# Projects\AppMercado\AppMercado\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\C# Projects\AppMercado\AppMercado\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\C# Projects\AppMercado\AppMercado\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\C# Projects\AppMercado\AppMercado\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\C# Projects\AppMercado\AppMercado\bin\roslyn\System.Collections.Immutable.dll
-C:\C# Projects\AppMercado\AppMercado\bin\roslyn\System.Reflection.Metadata.dll
-C:\C# Projects\AppMercado\AppMercado\bin\roslyn\vbc.exe
-C:\C# Projects\AppMercado\AppMercado\bin\roslyn\VBCSCompiler.exe
-C:\C# Projects\AppMercado\AppMercado\bin\roslyn\VBCSCompiler.exe.config
-C:\C# Projects\AppMercado\AppMercado\bin\AppMercado.dll.config
-C:\C# Projects\AppMercado\AppMercado\bin\AppMercado.dll
-C:\C# Projects\AppMercado\AppMercado\bin\AppMercado.pdb
-C:\C# Projects\AppMercado\AppMercado\bin\Antlr3.Runtime.dll
-C:\C# Projects\AppMercado\AppMercado\bin\EntityFramework.dll
-C:\C# Projects\AppMercado\AppMercado\bin\EntityFramework.SqlServer.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AI.Agent.Intercept.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AI.DependencyCollector.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AI.Web.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AI.WindowsServer.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.ApplicationInsights.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AspNet.Identity.Core.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Cookies.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Facebook.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Google.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.OAuth.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Twitter.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Web.Infrastructure.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Newtonsoft.Json.dll
-C:\C# Projects\AppMercado\AppMercado\bin\Owin.dll
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.Helpers.dll
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.Mvc.dll
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.Optimization.dll
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.Razor.dll
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.WebPages.Deployment.dll
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.WebPages.dll
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.WebPages.Razor.dll
-C:\C# Projects\AppMercado\AppMercado\bin\WebGrease.dll
-C:\C# Projects\AppMercado\AppMercado\bin\EntityFramework.xml
-C:\C# Projects\AppMercado\AppMercado\bin\EntityFramework.SqlServer.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AI.DependencyCollector.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AI.Web.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AI.WindowsServer.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.ApplicationInsights.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.Helpers.xml
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.Mvc.xml
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.Optimization.xml
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.Razor.xml
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.WebPages.xml
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.WebPages.Deployment.xml
-C:\C# Projects\AppMercado\AppMercado\bin\System.Web.WebPages.Razor.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Antlr3.Runtime.pdb
-C:\C# Projects\AppMercado\AppMercado\bin\Newtonsoft.Json.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AspNet.Identity.Core.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Facebook.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Cookies.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.OAuth.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Google.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.Twitter.xml
-C:\C# Projects\AppMercado\AppMercado\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\C# Projects\AppMercado\AppMercado\obj\Release\AppMercado.csprojResolveAssemblyReference.cache
-C:\C# Projects\AppMercado\AppMercado\obj\Release\AppMercado.dll
-C:\C# Projects\AppMercado\AppMercado\obj\Release\AppMercado.pdb
+C:\Dotnet\Mercadoria\AppMercado\bin\ApplicationInsights.config
+C:\Dotnet\Mercadoria\AppMercado\bin\roslyn\csc.exe
+C:\Dotnet\Mercadoria\AppMercado\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Dotnet\Mercadoria\AppMercado\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Dotnet\Mercadoria\AppMercado\bin\roslyn\System.Collections.Immutable.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\roslyn\System.Reflection.Metadata.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\roslyn\vbc.exe
+C:\Dotnet\Mercadoria\AppMercado\bin\roslyn\VBCSCompiler.exe
+C:\Dotnet\Mercadoria\AppMercado\bin\roslyn\VBCSCompiler.exe.config
+C:\Dotnet\Mercadoria\AppMercado\bin\AppMercado.dll.config
+C:\Dotnet\Mercadoria\AppMercado\bin\AppMercado.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\AppMercado.pdb
+C:\Dotnet\Mercadoria\AppMercado\bin\Antlr3.Runtime.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\EntityFramework.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\EntityFramework.SqlServer.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AI.DependencyCollector.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AI.Web.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AI.WindowsServer.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.ApplicationInsights.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.Google.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Web.Infrastructure.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Newtonsoft.Json.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\Owin.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.Helpers.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.Mvc.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.Optimization.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.Razor.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.WebPages.Deployment.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.WebPages.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.WebPages.Razor.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\WebGrease.dll
+C:\Dotnet\Mercadoria\AppMercado\bin\EntityFramework.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\EntityFramework.SqlServer.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AI.DependencyCollector.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AI.Web.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AI.WindowsServer.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.ApplicationInsights.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.Helpers.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.Mvc.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.Optimization.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.Razor.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.WebPages.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.WebPages.Deployment.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\System.Web.WebPages.Razor.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Antlr3.Runtime.pdb
+C:\Dotnet\Mercadoria\AppMercado\bin\Newtonsoft.Json.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.Google.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Dotnet\Mercadoria\AppMercado\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Dotnet\Mercadoria\AppMercado\obj\Release\AppMercado.csproj.CoreCompileInputs.cache
+C:\Dotnet\Mercadoria\AppMercado\obj\Release\AppMercado.csproj.CopyComplete
+C:\Dotnet\Mercadoria\AppMercado\obj\Release\AppMercado.dll
+C:\Dotnet\Mercadoria\AppMercado\obj\Release\AppMercado.pdb
