@@ -4,32 +4,113 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - AppMercado</title>
-    <link rel="stylesheet" href="~/Content/bootstrap.min.css" media="screen"/>    
+    <!-- Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 </head>
 <body>
-    <nav class="navbar navbar-light bg-light">
+    <nav class="mb-1 navbar navbar-expand-lg navbar-dark deep-purple darken-4">
         <a class="navbar-brand" href="/Produto/Index">
             <img src="https://cdn3.iconfinder.com/data/icons/industry-flat-3/64/Stock-storage-Merchandise-product-stock-256.png" width="30" height="30" class="d-inline-block align-top" alt="">
             AppMercado
-            @*@Html.ActionLink("AppMercado", "Index", "Produto", new { area = "" }, new { @class = "d-inline-block align-top" })*@
         </a>
-        @*<div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav" style="background-color:#9400D3">
-                <li>@Html.ActionLink("Produto", "Index", "Produto")</li>
-                <li>@Html.ActionLink("Contato", "Contact", "Home")</li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+                aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/Produto/Index">
+                        Produtos
+                        @*<span class="sr-only">(current)</span>*@
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Home/About">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Home/Contact">Contato</a>
+                </li>
             </ul>
-        </div>*@
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i>&nbsp;Administrator
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-default"
+                         aria-labelledby="navbarDropdownMenuLink-333">
+                        <a class="dropdown-item" href="#"><i class="fas fa-cog"></i>&nbsp;Configuraçoes</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i>&nbsp;Sair</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
     </nav>
     <div class="container">
-         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - AppMercado</p>
-        </footer>
+        @RenderBody()
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
+    <hr />
+    <!-- Footer -->
+    <footer class="page-footer font-small special deep-purple darken-4 pt-4">
+
+            <!-- Footer Elements -->
+            <div class="container">
+
+                <!-- Social buttons -->
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-fb mx-1">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-tw mx-1">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating btn-gplus mx-1">
+                            <i class="fab fa-google-plus-g"> </i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.linkedin.com/in/alexander-albuquerque-oliveira-5b2013104" class="btn-floating btn-li mx-1">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Social buttons -->
+
+            </div>
+            <!-- Footer Elements -->
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">
+                ©@DateTime.Now.Year - AppMercado
+                <br />
+                <a target="_blank" href="https://www.linkedin.com/in/alexander-albuquerque-oliveira-5b2013104" class="btn-floating btn-li mx-1">
+                    Software Engineer&nbsp;<i class="fab fa-linkedin"></i>
+                </a>
+                
+                
+                @*<a href="https://mdbootstrap.com/education/bootstrap/"></a>*@
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"></script>
 
     @RenderSection("scripts", required: false)
 </body>

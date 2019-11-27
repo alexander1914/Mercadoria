@@ -2,71 +2,45 @@
 
 @{
     ViewBag.Title = "Excluir Produto";
+    Layout = null;
 }
 
-<h2>Excluir Produto</h2>
+<!-- Modal Deletar o Produto -->
+<div class="container">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Excluir o Produto</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <dl class="dl-horizontal">
+                    <dt>@Html.DisplayNameFor(model => model.TP_Mercadoria)</dt>
+                    <dd>@Html.DisplayFor(model => model.TP_Mercadoria)</dd>
+                    <dt>@Html.DisplayNameFor(model => model.NM_Mercadoria)</dt>
+                    <dd>@Html.DisplayFor(model => model.NM_Mercadoria)</dd>
+                    <dt>@Html.DisplayNameFor(model => model.Quantidade)</dt>
+                    <dd>@Html.DisplayFor(model => model.Quantidade)</dd>
+                    <dt>@Html.DisplayNameFor(model => model.Descrição)</dt>
+                    <dd>@Html.DisplayFor(model => model.Descrição)</dd>
+                    <dt>@Html.DisplayNameFor(model => model.Preço)</dt>
+                    <dd>@Html.DisplayFor(model => model.Preço)</dd>
+                    <dt>@Html.DisplayNameFor(model => model.TP_Negocio)</dt>
+                    <dd>@Html.DisplayFor(model => model.TP_Negocio)</dd>
+                </dl>
 
-<h5>Tem certeza que deseja excluir o produto?</h5>
-<div>
-    
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.TP_Mercadoria)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TP_Mercadoria)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.NM_Mercadoria)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.NM_Mercadoria)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Quantidade)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Quantidade)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Descrição)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Descrição)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Preço)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Preço)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TP_Negocio)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TP_Negocio)
-        </dd>
-
-    </dl>
-
-    @using (Html.BeginForm()) {
-        @Html.AntiForgeryToken()
-
-        <div class="form-actions no-color">
-            <input type="submit" value="Excluir" class="btn btn-warning btn-sm" />
-            @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-danger btn-sm" })
+            </div>
+            <div class="modal-footer">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    <button type="submit" class="btn btn-danger">Deletar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>                    
+                }
+                </div>
         </div>
-    }
+    </div>
 </div>
+

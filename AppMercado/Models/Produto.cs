@@ -12,10 +12,10 @@ namespace AppMercado.Models
         [Key]
         public int Id { get; set; }
 
-        [DisplayName("Tipo de Mercadoria")]
+        [DisplayName("Mercadoria")]
         public string TP_Mercadoria { get; set; }
 
-        [DisplayName("Nome")]
+        [DisplayName("Marca")]
         public string NM_Mercadoria { get; set; }
 
         [DisplayName("Preço")]
@@ -26,7 +26,7 @@ namespace AppMercado.Models
         [DisplayName("Quantidade")]
         public double Preço { get; set; }
 
-        [DisplayName("Tipo do Negocio")]
+        [DisplayName("Negocio")]
         public string TP_Negocio { get; set; }
         
        
