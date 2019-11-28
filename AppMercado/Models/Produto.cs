@@ -12,21 +12,22 @@ namespace AppMercado.Models
         [Key]
         public int Id { get; set; }
 
-        [DisplayName("Mercadoria")]
+        [DisplayName("CATEGORIA")]
         public string TP_Mercadoria { get; set; }
 
-        [DisplayName("Marca")]
+        [DisplayName("PRODUTO")]
         public string NM_Mercadoria { get; set; }
 
-        [DisplayName("Preço")]
+        [DisplayName("PREÇO")]
         public decimal Quantidade { get; set; }
 
+        [DisplayName("MARCA")]
         public string Descrição { get; set; }
 
-        [DisplayName("Quantidade")]
+        [DisplayName("QUANTIDADE")]
         public double Preço { get; set; }
 
-        [DisplayName("Negocio")]
+        [DisplayName("NEGOCIO")]
         public string TP_Negocio { get; set; }
         
        

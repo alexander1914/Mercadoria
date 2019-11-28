@@ -37,15 +37,7 @@
                                 @Html.EditorFor(model => model.NM_Mercadoria, new { htmlAttributes = new { @class = "form-control" } })
                                 @Html.ValidationMessageFor(model => model.NM_Mercadoria, "", new { @class = "text-danger" })
                             </div>
-                        </div>
-
-                        <div class="form-group">
-                            @Html.LabelFor(model => model.Quantidade, htmlAttributes: new { @class = "control-label col-md-2" })
-                            <div class="col-md-10">
-                                @Html.EditorFor(model => model.Quantidade, new { htmlAttributes = new { @class = "form-control" } })
-                                @Html.ValidationMessageFor(model => model.Quantidade, "", new { @class = "text-danger" })
-                            </div>
-                        </div>
+                        </div>                        
 
                         <div class="form-group">
                             @Html.LabelFor(model => model.Descrição, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -62,14 +54,7 @@
                                 @Html.ValidationMessageFor(model => model.Preço, "", new { @class = "text-danger" })
                             </div>
                         </div>
-
-                        <div class="form-group">
-                            @Html.LabelFor(model => model.TP_Negocio, htmlAttributes: new { @class = "control-label col-md-2" })
-                            <div class="col-md-10">
-                                @Html.EditorFor(model => model.TP_Negocio, new { htmlAttributes = new { @class = "form-control" } })
-                                @Html.ValidationMessageFor(model => model.TP_Negocio, "", new { @class = "text-danger" })
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="modal-footer">
