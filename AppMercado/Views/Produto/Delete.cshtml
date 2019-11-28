@@ -20,27 +20,25 @@
                     <dt>@Html.DisplayNameFor(model => model.TP_Mercadoria)</dt>
                     <dd>@Html.DisplayFor(model => model.TP_Mercadoria)</dd>
                     <dt>@Html.DisplayNameFor(model => model.NM_Mercadoria)</dt>
-                    <dd>@Html.DisplayFor(model => model.NM_Mercadoria)</dd>
-                    <dt>@Html.DisplayNameFor(model => model.Quantidade)</dt>
-                    <dd>@Html.DisplayFor(model => model.Quantidade)</dd>
+                    <dd>@Html.DisplayFor(model => model.NM_Mercadoria)</dd>                    
                     <dt>@Html.DisplayNameFor(model => model.Descrição)</dt>
                     <dd>@Html.DisplayFor(model => model.Descrição)</dd>
                     <dt>@Html.DisplayNameFor(model => model.Preço)</dt>
-                    <dd>@Html.DisplayFor(model => model.Preço)</dd>
-                    <dt>@Html.DisplayNameFor(model => model.TP_Negocio)</dt>
-                    <dd>@Html.DisplayFor(model => model.TP_Negocio)</dd>
+                    <dd>@Html.DisplayFor(model => model.Preço)</dd>                    
                 </dl>
 
             </div>
             <div class="modal-footer">
+                <div class="row">
                 @using (Html.BeginForm())
                 {
                     @Html.AntiForgeryToken()
                     <button type="submit" class="btn btn-danger">Deletar</button>
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>                    
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
                 }
                 </div>
-        </div>
-    </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
 </div>
 

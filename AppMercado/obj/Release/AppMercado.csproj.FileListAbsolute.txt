@@ -81,3 +81,4 @@ C:\Dotnet\Mercadoria\AppMercado\obj\Release\AppMercado.csproj.CoreCompileInputs.
 C:\Dotnet\Mercadoria\AppMercado\obj\Release\AppMercado.csproj.CopyComplete
 C:\Dotnet\Mercadoria\AppMercado\obj\Release\AppMercado.dll
 C:\Dotnet\Mercadoria\AppMercado\obj\Release\AppMercado.pdb
+C:\dotnet\Mercadoria\AppMercado\obj\Release\AppMercado.csprojAssemblyReference.cache
